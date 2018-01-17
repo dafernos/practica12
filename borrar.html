@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dario Fernandez Osuna</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" href="./favicon.ico">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/borrar.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        <div>
+            <header>
+                <a href="index.html"><h1>Gestor de tareas</h1></a>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Sin iniciar</a></li>
+                    <li><a href="#">Iniciadas</a></li>
+                    <li><a href="#">Terminadas</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <main>
+                <article>
+                    <header><h2>Modificar Tarea</h2></header>
+                    <div><span class="titulotarea"></span>
+                        <form action="index.html">
+                            <input type="text" placeholder="Titulo de la tarea" required>
+                            <textarea rows="6" cols="50">
+                                
+                            </textarea> 
+                            <input type="file">
+                            <input type="submit" value="Modificar tarea">
+                        </form>
+                    </div>
+                    <footer><span><span>fecha</span><a href="index.html"><img src="./img/borrar.png" width="20px" height="20px;" alt=""></a></span></footer>
+                </article>
+            </main>
+            <aside>
+                <article>
+                    <ul>
+                        <li><a href="#"><img src="img/redes/github.svg" alt="Github"></a></li>
+                        <li><a href="#"><img src="img/redes/linkedin.svg" alt="Linkedin"></a></li>
+                        <li><a href="#"><img src="img/redes/twitter.svg" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="img/redes/wordpress.svg" alt="Wordpress"></a></li>
+                    </ul>
+                </article>
+            </aside>
+        </div>
+        <footer>
+            <span>&copy; 2017 Dario Fernandez Osuna</span>
+        </footer>    
+        
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
